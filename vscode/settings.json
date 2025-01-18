@@ -1,0 +1,26 @@
+{
+    "editor.accessibilitySupport": "off",
+    "window.zoomLevel": 2,
+    "git.autofetch": true,
+    "terminal.integrated.inheritEnv": false,
+    "editor.stickyScroll.enabled": true,
+    "remote.SSH.defaultExtensions": [
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-renderers",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "git.enableSmartCommit": true,
+    "liveshare.notebooks.allowGuestExecuteCells": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.formatting.provider": "black",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.lineNumbers": "on",
+    "explorer.confirmDelete": false,
+    }

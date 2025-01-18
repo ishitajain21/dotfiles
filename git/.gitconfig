@@ -1,0 +1,12 @@
+[user]
+	email = 40191155+ishitajain21@users.noreply.github.com
+	name = ishitajain21
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[alias]
+	graph = log --all --graph --decorate
+[core]
+	excludesfile = /Users/ishitajain/.gitignore_global

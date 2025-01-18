@@ -1,0 +1,211 @@
+// Place your key bindings in this file to override the defaults
+[
+    [
+        // Vim Ex Commands
+        {
+          "key": "ctrl+w",
+          "command": "notebook.save",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+q",
+          "command": "notebook.exitCommandMode",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+      
+        // Vim Jupyter Edit Mode Bindings
+        {
+          "key": "ctrl+o,-",
+          "command": "notebook.splitCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+shift+j",
+          "command": "notebook.extendMarkedCellsBelow",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+shift+k",
+          "command": "notebook.extendMarkedCellsAbove",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+j",
+          "command": "notebook.selectCellBelow",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+
+        {
+          "key": "ctrl+k",
+          "command": "notebook.selectCellAbove",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,g",
+          "command": "notebook.selectFirstCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,ctrl+g",
+          "command": "notebook.selectLastCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,o",
+          "command": "notebook.insertCellBelow",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,ctrl+o",
+          "command": "notebook.insertCellAbove",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,d",
+          "command": "notebook.deleteCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,y",
+          "command": "notebook.copyCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,p",
+          "command": "notebook.pasteCellBelow",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+e",
+          "command": "notebook.moveCellDown",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+y",
+          "command": "notebook.moveCellUp",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,u",
+          "command": "notebook.undoCellAction",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+o,z,z",
+          "command": "notebook.centerCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+g",
+          "command": "notebook.showTooltip",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "cmd1",
+          "command": "notebook.changeCellToCode",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "cmd2",
+          "command": "notebook.changeCellToMarkdown",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "cmd3",
+          "command": "notebook.changeCellToRaw",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "shift+esc",
+          "command": "notebook.exitToCommandMode",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "esc",
+          "command": "notebook.exitToNormalMode",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+      
+        // Jupyter Command Mode Bindings
+        {
+          "key": "g,g",
+          "command": "notebook.selectFirstCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "shift+g",
+          "command": "notebook.selectLastCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "o",
+          "command": "notebook.insertCellBelow",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "shift+o",
+          "command": "notebook.insertCellAbove",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "d,d",
+          "command": "notebook.deleteCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "y,y",
+          "command": "notebook.copyCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "p",
+          "command": "notebook.pasteCellBelow",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "shift+p",
+          "command": "notebook.pasteCellAbove",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+e",
+          "command": "notebook.moveCellDown",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "ctrl+y",
+          "command": "notebook.moveCellUp",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "u",
+          "command": "notebook.undoCellAction",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "z,z",
+          "command": "notebook.centerCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "z,c",
+          "command": "notebook.hideCodeCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "z,o",
+          "command": "notebook.showCodeCell",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "z,m",
+          "command": "notebook.hideAllCodeCells",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        },
+        {
+          "key": "z,r",
+          "command": "notebook.showAllCodeCells",
+          "when": "editorTextFocus && resourceLangId == 'jupyter-notebook'"
+        }
+      ]
+      
+]
